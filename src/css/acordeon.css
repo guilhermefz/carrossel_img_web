@@ -1,0 +1,45 @@
+html {
+    background-color: #e5e5e5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.acordeon {
+    width: 655px;
+    min-height: 347px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0,8);
+    background-color :aliceblue;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.acordeon .ilustracao {
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .conteudo {
+    width: 90%;
+    padding-left: 255px;
+}
+
+.acordeon .conteudo h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.acordeon .items {
+    list-style-type: none;
+}
+
+.acordeon .conteudo .h2 {
+    font-size: 14px;
+}
